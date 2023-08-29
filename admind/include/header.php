@@ -11,7 +11,7 @@
         body{
             width: 100%;
             height: 100vh;
-            background: gold;
+            background: whitesmoke;
         }
 
         .center{
@@ -22,13 +22,22 @@
             min-height: 700px;
             padding: 30px 30px;
         }
+        input:invalid {
+            border: 1px solid red;
+        }
+        input:valid {
+            border: 1px solid green;
+        }
+        input {
+            outline: none;
+        }
 
     </style>
 </head>
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-primary">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"style="color: goldenrod;">Nav amind</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -65,7 +74,7 @@
                 </form>
             </div>
         </div>
-    </nav>
+    </nav> -->
 
     <header>
 
